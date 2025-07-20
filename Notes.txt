@@ -1,0 +1,31 @@
+Arcjet for rate limiting and bot protection
+
+Inngest for cron jobs
+
+Clerk
+1. Hero Section
+3. Header
+2. Page.jsx
+4. landing.js
+
+
+To save prisma models to database run:
+npx prisma migrate dev --name create-models
+
+
+5. lib -> checkUser.js
+
+6. Routes and Folder Structure
+
+
+in next js we do not need to create api folder, we can directly create api functions in the actions folder called server side functions
+
+dashboard.js in actions folder
+
+to create account->
+dashboard.js in actions folder
+create-account-drawer.jsx in ui/components folder
+in lib/schema.js for schema of zod 
+
+
+
