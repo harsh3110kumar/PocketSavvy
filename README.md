@@ -14,20 +14,37 @@ PocketSavvy is a full-stack web application that empowers users to track, catego
 
 ---
 
-## Features & Assignment Mapping
+## Features
 
-- **Add, update, delete transactions (income/expense)**  
-  _Requirement: Create income/expense entries through the web app_
-- **Filter by date, category, and visualize with dynamic charts**  
-  _Requirement: List all income/expenses in a time range; show graphs (by category, by date, etc.)_
-- **Upload image/PDF receipts to extract transaction data (AI-powered)**  
-  _Requirement: Use AI (Google Gemini) for receipt extraction (images, PDFs)_
-- **Bulk PDF import & paginated transaction lists**  
-  _Bonus: Upload transaction history from tabular PDFs; pagination for list APIs_
-- **Clerk-based authentication & multi-user support**  
-  _Requirement: Support multiple users (each user’s data is private and secure)_
-- **Responsive, themed UI with dark mode toggle**  
-  _Quality: Modern, accessible, and user-friendly design_
+- **Add & Edit Transactions**  
+  Quickly log your income and expenses with an intuitive form. Edit any transaction to keep your records accurate.
+
+- **Smart Categorization**  
+  Assign categories to each transaction for detailed tracking and analysis.
+
+- **Date & Category Filtering**  
+  Effortlessly filter your transactions by date range or category to find exactly what you need.
+
+- **AI-Powered Receipt Scanning**  
+  Upload images or PDFs of receipts—Google Gemini AI automatically extracts the amount, date, and description, saving you time on manual entry.
+
+- **Bulk PDF Import**  
+  Import transaction history from PDF bank statements or POS receipts in tabular format. The app parses and adds multiple transactions at once.
+
+- **Paginated Transaction List**  
+  View your transactions in a fast, paginated table—optimized for large histories.
+
+- **Interactive Analytics Dashboard**  
+  Visualize your spending and income with dynamic charts, including expenses by category and trends over time.
+
+- **Multi-User Support**  
+  Secure authentication with Clerk ensures each user’s data is private and accessible only to them.
+
+- **Modern, Responsive UI**  
+  Enjoy a beautiful, mobile-friendly interface with dark mode, built using shadcn/ui and Tailwind CSS.
+
+- **Robust Validation & Error Handling**  
+  All forms are validated with Zod, and users receive clear feedback for any errors.
 
 ---
 
@@ -95,7 +112,7 @@ pocketsavvy/
 
 1. **Clone & Install**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/harsh3110kumar/PocketSavvy.git
    cd pocketsavvy
    npm install
    ```
