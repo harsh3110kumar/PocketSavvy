@@ -6,6 +6,9 @@ Smart Personal Finance Management
 
 [🚀 Live Demo on Vercel](https://pocket-savvy.vercel.app/)
 
+[▶️ Watch PocketSavvy working demo video ](https://drive.google.com/file/d/1xDfGwShuBMuLdKfHzKppYln4LHC7ZQZU/view?usp=sharing)
+
+
 ---
 
 ## Overview
