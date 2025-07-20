@@ -94,5 +94,13 @@ const Footer = () => {
     </footer>
   )
 }
+// Minimal landing page footer
+export const FooterLanding = () => (
+  <footer className="bg-slate-900/95 w-full py-2">
+    <div className="text-center text-sm text-white tracking-wide">
+      Designed & Developed by Harsh
+    </div>
+  </footer>
+)
 
 export default Footer 
