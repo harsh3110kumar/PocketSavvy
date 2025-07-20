@@ -116,7 +116,7 @@ pocketsavvy/
    cd pocketsavvy
    npm install
    ```
-2. **Environment** (`.env.local`)
+2. **Environment** (`.env`)
    ```env
    DATABASE_URL="postgresql://user:pass@localhost:5432/finance_db"
    CLERK_SECRET_KEY="..."
